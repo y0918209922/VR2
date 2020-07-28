@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="6.1.2" apprev="17873" start="node1">
+  <panorama id="node1">
+    <input width="1250" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" height="1250" levelingpitch="0" levelbias="0.400">
+      <level width="1250" preload="0" predecode="0" height="1250"/>
+      <level width="625" preload="0" predecode="0" height="625"/>
+      <level width="312" preload="1" predecode="1" height="312"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="0" pan="0" fov="70" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata title="" copyright="" source="" tags="VR-airport" latitude="" longitude="" info="" customnodeid="" datetime="2017/03/01 上午 01:54" description="" author="" nodeid="node1" comment=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" bordercolor="0x000000" borderalpha="1" border="1" enabled="1" backgroundalpha="1" borderradius="1" wordwrap="1" textalpha="1" background="1" height="20" textcolor="0x000000" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot tilt="0.36" skinid="ht_node" title="" pan="-269.39" id="Point01" url="{node2}" description="" target=""/>
+      <hotspot tilt="36.84" skinid="ht_url" title="" pan="-182.33" id="Point02" url="https://www.facebook.com/#!/jervis.yeh" description="" target="_blank"/>
+    </hotspots>
+    <media>
+      <video rotx="0.000" rotz="4.000" nodechangekeep="0" level="1.000" startmutedmobile="0" ambientlevel="0.000" fov="30.000" handcursor="0" field="90.000" tiltsize="10.000" width="640" tilt="3.570" height="398" roty="0.000" loop="1" pansize="10.000" stretch="1.000" mode="3" clickmode="0" pan="-180.690" id="Element01">
+        <source url="media/優瑞客_0722.mp4"/>
+      </video>
+      <image tilt="19.550" handcursor="0" rotx="0.000" roty="0.000" stretch="1.000" width="1600" pan="-286.100" rotz="0.000" id="Element02" fov="66.360" clickmode="0" height="900">
+        <source url="media/03.jpg"/>
+      </image>
+      <lensflare tilt="19.070" blinding="50.000" pan="-167.200" id="Lensflare01" color="0xffffff" alpha="80.000" type="1"/>
+      <lensflare tilt="22.290" blinding="50.000" pan="-269.160" id="Lensflare02" color="0xffffff" alpha="80.000" type="1"/>
+    </media>
+    <transition blendtime="1" zoomfov="20" zoomoutpause="1" enabled="1" softedge="0" zoomspeed="2" zoomin="2" type="crossdissolve" blendcolor="0x000000" zoomout="3"/>
+    <soundstransition crossfade="0" transitiontime="2" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" hideabout="0" sensitivity="8" invertcontrol="1" lockedkeyboardzoom="0" lockedwheel="0" contextfullscreen="1" contextprojections="0" simulatemass="1" lockedmouse="0" rubberband="0" speedwheel="1" invertwheel="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input width="1250" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" height="1250" levelingpitch="0" levelbias="0.400">
+      <level width="1250" preload="0" predecode="0" height="1250"/>
+      <level width="625" preload="0" predecode="0" height="625"/>
+      <level width="312" preload="1" predecode="1" height="312"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="0" pan="0" fov="70" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata title="" copyright="" source="" tags="VR-airport" latitude="" longitude="" info="" customnodeid="" datetime="2017/03/01 上午 12:39" description="" author="" nodeid="node2" comment=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" bordercolor="0x000000" borderalpha="1" border="1" enabled="1" backgroundalpha="1" borderradius="1" wordwrap="1" textalpha="1" background="1" height="20" textcolor="0x000000" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot tilt="0.45" skinid="ht_node" title="" pan="-265.97" id="Point01" url="{node1}" description="" target=""/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomfov="20" zoomoutpause="1" enabled="1" softedge="0" zoomspeed="2" zoomin="2" type="crossdissolve" blendcolor="0x000000" zoomout="3"/>
+    <soundstransition crossfade="0" transitiontime="2" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" hideabout="0" sensitivity="8" invertcontrol="1" lockedkeyboardzoom="0" lockedwheel="0" contextfullscreen="1" contextprojections="0" simulatemass="1" lockedmouse="0" rubberband="0" speedwheel="1" invertwheel="0" dblclickfullscreen="0"/>
+  </panorama>
+  <masternode>
+    <userdata title="" copyright="" source="" tags="" latitude="" longitude="" info="" customnodeid="" datetime="" description="" author="" nodeid="master" comment=""/>
+  </masternode>
+</tour>
